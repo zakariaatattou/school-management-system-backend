@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from '../models/user';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 export const authenticate = async (req: any, res: any) => {
